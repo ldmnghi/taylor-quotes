@@ -5,7 +5,7 @@ body, html {
     height: 100%;
   }
 
-*{
+  *{
     margin:0;
     padding:0;
   }
@@ -108,7 +108,7 @@ body, html {
 }
 
 .buttons {
-    font-size: calc(16px + 0.390625vw);
+    font-size: calc(18px + 0.390625vw);
     display: flex;
     gap: 16px;
     flex-direction: row;
