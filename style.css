@@ -95,11 +95,12 @@ body, html {
     color:rgba(0, 0, 0, 0.8);
     font-family: 'Baskerville';
     font-size: calc(18px + 0.390625vw);
+    font-style: italic;
     font-weight: 600;
     position: relative;
-    display: flex;
-    flex-direction: row;
+    display: inline;
     justify-content: right;
+    text-align: right;
 }
 
 .buttons {
