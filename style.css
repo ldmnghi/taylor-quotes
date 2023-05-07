@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Roboto:ital,wght@0,500;1,700&display=swap');
+
+:root,
+:root.default {
+    --theme-color: rgba(0, 0, 0, 0.8);
+    --theme-background: none;
+}
+
+:root.eightyninetheme {
+  --theme-color: rgba(93, 65, 116, 0.8);
+  --theme-background: url(./background/1989-background.jpg);
+}
+
+:root.shakeitofftheme {
+    --theme-color: rgba(93, 65, 116, 0.8);
+    --theme-background: url(https://media4.giphy.com/media/xT1R9A4xVHouBvF2H6/giphy.gif);
+}
+
+:root.blankspacetheme {
+    --theme-color: rgba(93, 65, 116, 0.8);
+    --theme-background: url(https://media3.giphy.com/media/xT1R9MnGZjVy66lnMc/giphy.gif);
+}
+
+:root.badbloodtheme {
+    --theme-color: rgba(120, 18, 0, 0.8);
+    --theme-background: url(https://media0.giphy.com/media/l4EpjFmhKRrGd6zQY/giphy.gif);
+}
+
+:root.evermoretheme {
+  --theme-color: rgba(114, 40, 6, 0.8);
+  --theme-background: url(./background/evermore-background.jpg);
+}
+
+:root.fearlesstheme {
+    --theme-color: rgba(120, 96, 36, 0.8);
+    --theme-background: url(./background/fearless-background.jpg);
+}
+
+:root.lovestorytheme {
+    --theme-color: rgba(120, 96, 36, 0.8);
+    --theme-background: url(https://media0.giphy.com/media/l0CPcuGIZTm8ZbnOg/giphy.gif);
+}
+
+:root.youbelongwithmetheme {
+    --theme-color: rgba(120, 96, 36, 0.8);
+    --theme-background: url(https://media0.giphy.com/media/3o6gg3IDiuTKFgGzN6/giphy.gif);
+}
+
+:root.folkloretheme {
+    --theme-color: rgba(0, 0, 0, 0.8);
+    --theme-background: url(./background/folklore-background.png);
+}
+
+:root.cardigantheme {
+    --theme-color: rgba(142, 94, 23, 0.8);
+    --theme-background: url(https://media1.giphy.com/media/jO2B3Llymxny6BSObJ/giphy.gif);
+}
+
+:root.lovertheme {
+    --theme-color: rgba(143, 51, 95, 0.8);
+    --theme-background: url(./background/lover-background.jpg);
+}
+  
+:root.midnightstheme {
+      --theme-color: rgba(47, 83, 149, 0.8);
+      --theme-background: url(./background/midnights-background.png);
+}
+
+:root.antiherotheme {
+    --theme-color: rgba(47, 83, 149, 0.8);
+    --theme-background: url(https://media3.giphy.com/media/pJmnk86fXFNmrUb8LB/giphy.gif);
+}
+
+:root.lavenderhazetheme {
+    --theme-color: rgba(87, 66, 114, 0.8);
+    --theme-background: url(https://media1.giphy.com/media/DsgVN1dOGitgAokt46/giphy.gif);
+}
+
+:root.redtheme {
+    --theme-color: rgba(119, 3, 28, 0.8);
+    --theme-background: url(./background/red-background.jpg);
+}
+
+:root.twentytwotheme {
+    --theme-color: rgba(119, 3, 28, 0.8);
+    --theme-background: url(https://media1.giphy.com/media/xUPN3oiLhjl7M4FXVe/giphy.gif);
+}
+
+:root.reputationtheme {
+    --theme-color: rgba(0, 0, 0, 0.8);
+    --theme-background: url(./background/reputation-background.jpg);
+}
+
+:root.lookwhatyoumademedotheme {
+    --theme-color: rgba(95, 0, 11, 0.8);
+    --theme-background: url(https://media0.giphy.com/media/l4Epa5Y9GHscbDT6U/giphy.gif);
+}
+
+:root.speaknowtheme {
+    --theme-color: rgba(93, 11, 77, 0.8);
+    --theme-background: url(./background/speaknow-background.jpg);
+}
+
+:root.taylorswifttheme {
+    --theme-color: rgba(22, 85, 110, 0.8);
+    --theme-background: url(./background/taylorswift-background.jpg);
+}
+
+.frame-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: calc(75px + 0.390625vw);
+    padding-left: 15px;
+    padding-right: 15px;
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), var(--theme-background);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.buttons {
+    font-size: calc(18px + 0.390625vw);
+    display: flex;
+    gap: calc(16px + 0.390625vw);
+    flex-direction: row;
+    justify-content: right;
+    color: var(--theme-color); 
+    cursor:pointer;
+}
+
+.twitter{
+    color: var(--theme-color);
+}
+
+.fa-quote-left{
+    font-size: calc(30px + 0.390625vw);
+    color: var(--theme-color);
+}
+
+.fa-quote-right {
+    font-size: calc(30px + 0.390625vw);
+    color: var(--theme-color);
+    transform: rotate(-180deg) scaleX(-1);
+}
+
+
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+*{
+    margin:0;
+    padding:0;
+  }
+
+.frame-header{
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: calc(10px + 0.390625vw);
+}
+
+.taylor-swift-logo{
+    max-width: 500px;
+    width: 80%;
+    height: auto;
+    position: relative;
+}
+
+.title{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Roboto';
+    font-size: calc(28px + 0.390625vw);
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+}
+
+.frame-container{
+    align-self: auto;
+    display: flex;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    flex-direction: column;
+    gap: calc(30px + 0.390625vw);
+    padding: 50px 30px 20px 30px;
+    max-width: calc(475px + 0.390625vw);
+    height: auto;
+    backdrop-filter: blur(6px);
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.25);
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.5));
+}
+
+.content{
+
+    display: flex;
+    flex-direction: row;
+    gap: calc(16px + 0.390625vw);
+}
+
+.lyric{
+    color:rgba(0, 0, 0, 0.8);
+    font-family: 'Baskerville';
+    font-size: calc(18px + 0.390625vw);
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.song-album{
+    color:rgba(0, 0, 0, 0.8);
+    font-family: 'Baskerville';
+    font-size: calc(18px + 0.390625vw);
+    font-style: italic;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    justify-content: right;
+    text-align: right;
+}
+
+canvas {
+    position: absolute;
+    pointer-events: none
+  }
