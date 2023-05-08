@@ -32,7 +32,7 @@ function removejscssfile(filename, filetype){
 //RANDOMIZER FUNCTION 
 const getNewQuote = async () =>
 {
-    var url="https://taylorswiftapi.onrender.com/get-all/";    
+    var url="https://taylorswiftapi.onrender.com/get-all/?album=midnights";    
     const response=await fetch(url);
     console.log(typeof response);
 
